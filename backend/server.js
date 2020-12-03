@@ -28,6 +28,11 @@ if (process.env.NODE_ENV === 'development') {
   app.use(cors())
 }
 
+// deploy success log:
+app.get('/deploysuccess', (req, res) => {
+  res.send('Deployed Successfully!')
+})
+
 //Mount routers
 app.use('/api/auth', require('./routes/auth'))
 app.use('/api/user', require('./routes/user'))
