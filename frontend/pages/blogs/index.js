@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Layout from '../../components/Layout'
 import { useState } from 'react'
 import { listBlogsWithCategoriesAndTags } from '../../actions/blog_action'
-import BlogCard from '../../components/blogs/blogcard'
+import BlogCard from '../../components/blogs/Blogcard'
 import { API, DOMAIN } from '../../config'
 import { withRouter } from 'next/router'
 
