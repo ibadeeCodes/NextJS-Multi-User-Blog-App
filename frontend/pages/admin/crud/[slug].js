@@ -2,7 +2,7 @@ import Layout from '../../../components/Layout'
 import Admin from '../../../components/auth/Admin'
 import { useRouter } from 'next/router'
 // import Back from '../../../components/Back'
-import BlogUpdate from '../../../components/crud/blogUpdate'
+import BlogUpdate from '../../../components/crud/BlogUpdate'
 
 const Blog = () => {
   return (
