@@ -15,6 +15,11 @@ const AdminIndex = () => {
             <h1 className='pt-5 pb-5'>Admin Dashboard</h1>
             <ul className='list-group'>
               <li className='list-group-item'>
+                <Link href='/profile'>
+                  <a>Edit Profile</a>
+                </Link>
+              </li>
+              <li className='list-group-item'>
                 <Link href='/admin/crud/category-tag'>
                   <a>Categories & Tags</a>
                 </Link>
