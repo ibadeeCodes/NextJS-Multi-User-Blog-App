@@ -7,7 +7,7 @@ import {
 import FormData from 'form-data'
 import { API } from '../../config'
 
-const UserProfile = () => {
+const Profile = () => {
   const token = getCookie('token')
   let [userProfile, setUserProfile] = useState({
     name: '',
@@ -217,4 +217,4 @@ const UserProfile = () => {
   )
 }
 
-export default UserProfile
+export default Profile
